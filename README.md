@@ -1,19 +1,19 @@
-# 🔥 FileWatcher with Excel-Based Filing Status
+# FileWatcher with Excel-Based Filing Status
 
 This Python-based file watcher monitors an Excel file for changes in the **Filing Status** cell (`C2`). When you update the cell to `"Single"` or `"Married"`, the program automatically adapts the behavior accordingly. The file watcher can run persistently in the background or be triggered manually.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📈 Monitors Excel cell `C2` for filing status updates.
-- ♻️ Automatically adapts calculations or actions based on `"Single"` or `"Married"` values.
-- 🕰️ Runs persistently in the background or manually through `main.py`.
-- 🮠 Cross-platform support (Windows, macOS, Linux).
+-  Monitors Excel cell `C2` for filing status updates.
+-  Automatically adapts calculations or actions based on `"Single"` or `"Married"` values.
+-  Runs persistently in the background or manually through `main.py`.
+-  Cross-platform support (Windows, macOS, Linux).
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the Repository:**
 
@@ -75,7 +75,7 @@ excel_path = "/path/to/your/excelfile.xlsx"
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### 1. **Run Manually (via `main.py`)
 
@@ -92,7 +92,7 @@ python main.py
 
 ### 2. **Run as Background Process (Persistent Mode)**
 
-#### 💻 **Linux/macOS (via `nohup` or `systemd`):**
+#### **Linux/macOS (via `nohup` or `systemd`):**
 
 - **With `nohup` (runs even after terminal closes):**
 
@@ -139,7 +139,7 @@ sudo systemctl status filewatcher
 
 ---
 
-#### 🦟 **Windows (via Task Scheduler):**
+#### **Windows (via Task Scheduler):**
 
 1. Open **Task Scheduler**.
 2. Create a new task:
